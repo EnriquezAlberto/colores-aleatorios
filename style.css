@@ -23,7 +23,31 @@ body {
     width: 450px;
     background-color: white;
     border: 5px solid black;
+    border-radius: 10px;
     flex-wrap: wrap;
-    flex-direction: column;
-     
+    flex-direction: column;  
+}
+
+#color {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #212120;
+    margin: 25px;
+    padding: 5 12px;
+    border: 2px solid #020202;
+    user-select: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(13, 94, 181);
+    
+   
 }
